@@ -31,14 +31,18 @@ h1,h2,h3,h4,h5,h6,ul,p{
     font-style: normal;
     line-height: 1.07;
     color: #4d5ae5;
-    padding-right:50px;
+    padding-left:50px;
+    
   }
   
   
   
-  .page-title .page-menu-list {
+  .page-menu-list {
     display: flex;
     margin-left:0;
+    
+    
+
     
     
   }
@@ -252,6 +256,10 @@ h1,h2,h3,h4,h5,h6,ul,p{
     margin-bottom: 112px;
     font-size: 36px;
     line-height: 1.1;
+    
+  }
+  .staff{
+    padding-top:30px;
   }
   
   .portfolio {
