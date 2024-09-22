@@ -280,10 +280,11 @@ body {
   margin-top: 6px;
   padding-left: 10px;
   
+  
 }
 
 .working {
-  margin-bottom: 8px;
+  
   margin-top: 32px;
   padding-left: 20px;
   border-bottom: 1px solid #E7E9FC;
@@ -291,6 +292,7 @@ body {
 
 .work-area p {
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 h2 {
