@@ -155,7 +155,7 @@ body {
   cursor: pointer;
   margin-top: 50px;
   border: none;
-  margin-left: 500px;
+  margin-left: 450px;
 }
 .order:hover {
   background-color: #404bbf;
@@ -216,18 +216,25 @@ body {
   box-shadow: #2e2f4214;
   background-color: #ffffff;
   margin-right: 24px;
+  
 }
 .team-card {
   background-color: #ffffff;
   box-shadow: #2e2f4214;
 }
-
+.our-team{
+  margin-top:72px;
+ 
+}
 .staff {
   padding-top: 30px;
+  margin-bottom: 50px;
 }
+
 
 .portfolio {
   display: flex;
+  flex-wrap: wrap;
   
   justify-content: center;
   padding-top: 120px;
@@ -235,6 +242,7 @@ body {
   gap: 8px;
   
 }
+
 
 .portfolio .our-portfolio {
   text-align: center;
@@ -254,31 +262,31 @@ body {
 }
 
 .portfolio .images {
-  width: 360px;
+  width: 300px;
   height: 300px;
   overflow: hidden;
 }
 
 .portfolio .portfolio-content {
-  display: flex;
-  column-gap: 4px;
-  row-gap: 48px;
+  display:flex;
+  flex-wrap: wrap;
+  
+  
+  
 }
 .work-area {
   text-align: left;
   margin-bottom: 0px;
   margin-top: 6px;
   padding-left: 10px;
+  
 }
-.portfolio-content{
-  display: flex;
-  flex-wrap:wrap;
 
-}
 .working {
   margin-bottom: 8px;
   margin-top: 32px;
   padding-left: 20px;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .work-area p {
