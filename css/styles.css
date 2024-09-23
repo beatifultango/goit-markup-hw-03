@@ -234,12 +234,11 @@ body {
 
 .portfolio {
   display: flex;
-  flex-wrap: wrap;
+  
   
   justify-content: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  gap: 8px;
+  
+  
   
 }
 
@@ -252,6 +251,9 @@ body {
   font-weight: 500px;
   text-wrap: nowrap;
   margin-bottom: 72px;
+  
+  
+
 }
 .portfolio p {
   font-weight: 400px;
@@ -262,32 +264,33 @@ body {
 }
 
 .portfolio .images {
-  width: 300px;
-  height: 300px;
+  
   overflow: hidden;
+  
+  
 }
 
-.portfolio .portfolio-content {
+.portfolio-content {
   display:flex;
   flex-wrap: wrap;
+  padding-left: 0;
   
   
+   
   
 }
 .work-area {
   text-align: left;
-  margin-bottom: 0px;
-  margin-top: 6px;
-  padding-left: 10px;
-  
-  
+ 
+   
 }
 
 .working {
   
   margin-top: 32px;
-  padding-left: 20px;
+  padding-left:20px;
   border-bottom: 1px solid #E7E9FC;
+  
 }
 
 .work-area p {
