@@ -12,7 +12,7 @@ p {
   font-weight: inherit;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
   text-align: center;
   justify-content: center;
   padding: 0 15px;
@@ -232,14 +232,9 @@ body {
 }
 
 
-.portfolio {
-  display: flex;
-  
-  
-  justify-content: center;
-  
-  
-  
+.div-portfolio-list,
+.div-portfolio{
+  background-color: #fff;
 }
 
 
@@ -270,34 +265,56 @@ body {
   
 }
 
-.portfolio-content {
+.div-portfolio-list {
   display:flex;
   flex-wrap: wrap;
-  padding-left: 0;
+  gap:24px;
+  row-gap: 48px;
+  padding:0px;
   
   
    
   
 }
-.work-area {
-  text-align: left;
- 
-   
+.div-portfolio{
+  padding-top:120px;
+  padding-bottom:120px;
 }
-
-.working {
-  
-  margin-top: 32px;
-  padding-left:20px;
-  border-bottom: 1px solid #E7E9FC;
-  
+.div-portfolio-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
-
-.work-area p {
-  margin-top: 10px;
-  margin-bottom: 30px;
+.div-portfolio-list-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
 }
-
+.div-portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.div-team-portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  text-decoration: none;
+  text-align:left;
+}
+.div-portfolio-list-item{
+  list-style-type: none;
+}
 h2 {
   font-size: 20px;
   line-height: 1.2;
@@ -349,9 +366,7 @@ h4 {
   line-height: 1.5;
   color: #434455;
 }
-h6 a {
-  text-decoration: none;
-}
+
 
 .button {
   background-color: #4d5ae5;
