@@ -74,12 +74,12 @@ p {
   height: 24px;
 }
 
-a {
+.page-menu-list  a {
   color: #2e2f42;
   text-decoration: none;
 }
-a:hover {
-  color: #404BBF
+.page-menu-list  a:hover {
+  color: #404BBF;
   cursor: pointer;
 }
 a:focus {
