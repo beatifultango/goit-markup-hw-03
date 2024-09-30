@@ -79,7 +79,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #404bbf;
+  color: #404BBF
   cursor: pointer;
 }
 a:focus {
@@ -186,7 +186,7 @@ body {
   
 }
 .about-us-text{
-  margin-bottom:8px;
+  padding-bottom:8px;
 }
 .about-us .p {
   font-size: 16px;
