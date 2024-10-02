@@ -41,12 +41,12 @@ p {
   font-style: normal;
   line-height: 1.07;
   color: #4d5ae5;
-  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .page-menu-list {
   display: flex;
-  margin-left: 0;
+  
 }
 
 .contacts {
@@ -60,7 +60,9 @@ p {
 .span1 {
   color: #4d5ae5;
 }
-
+.span{
+  color:#2E2F42;
+}
 .spa1 {
   color: #f4f4fd;
 }
@@ -265,6 +267,7 @@ body {
   margin-bottom: 72px;
   
   
+  
 
 }
 .portfolio .div-portfolio-list-text {
@@ -272,6 +275,7 @@ body {
   font-size: 16px;
   line-height: 0.2;
   letter: 2%;
+  
   
   
 }
@@ -306,7 +310,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
+  
   margin-bottom: 72px;
 }
 .div-portfolio-list-subtitle {
@@ -315,7 +319,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color:#2E2F42;
   margin-bottom: 8px;
   
 }
@@ -323,7 +327,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  
   font-weight: 400;
  
 }
@@ -346,7 +350,7 @@ h2 {
 .div-portfolio-list-text {
   font-size: 16px;
   font-style: unset;
-  color: #434455;
+  color:#434455;
   line-height: 1.5;
   font-weight: 400px;
   
