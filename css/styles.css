@@ -1,3 +1,11 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+
 h1,
 h2,
 h3,
@@ -188,7 +196,7 @@ body {
 .about-us-text{
   padding-bottom:8px;
 }
-.about-us .p {
+.about-us p{
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -259,11 +267,12 @@ body {
   
 
 }
-.portfolio p {
+.portfolio .div-portfolio-list-text {
   font-weight: 400px;
   font-size: 16px;
   line-height: 0.2;
   letter: 2%;
+  
   
 }
 
@@ -285,6 +294,7 @@ body {
    
   
 }
+
 .div-portfolio{
   padding-top:120px;
   padding-bottom:120px;
@@ -307,6 +317,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  
 }
 .div-portfolio-list-text {
   font-size: 16px;
@@ -314,6 +325,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   font-weight: 400;
+ 
 }
 .div-team-portfolio-container {
   padding: 32px 16px;
@@ -324,18 +336,20 @@ body {
 }
 .div-portfolio-list-item{
   list-style-type: none;
+ 
 }
 h2 {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
 }
-p {
+.div-portfolio-list-text {
   font-size: 16px;
   font-style: unset;
   color: #434455;
   line-height: 1.5;
   font-weight: 400px;
+  
 }
 
 h4 {
@@ -414,15 +428,17 @@ footer {
   line-height: 1.16;
   font-weight: 700px;
   font-style: normal;
-  padding-top: 50px;
+  padding: 50px;
 }
 .logo2 {
   margin-bottom: 16px;
   text-align: left;
 }
-.explanation {
+.footer .text {
   max-width: 264px;
   margin: 0;
+  padding-top:16px;
+  
 }
 .studio-footer {
   color: #f4f4fd;
