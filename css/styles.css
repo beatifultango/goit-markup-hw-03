@@ -58,14 +58,13 @@ p {
 }
 .logo{
   text-decoration: none;
+  color:#2E2F42;
 }
 
 .span1 {
   color: #4d5ae5;
 }
-.span{
-  color:#2E2F42;
-}
+
 
 
 .navi {
@@ -84,13 +83,13 @@ p {
   text-decoration: none;
   width: 261px;
   height: 24px;
-}
-
-.page-menu-list  a {
   color: #2e2f42;
   text-decoration: none;
 }
-.page-menu-list  a:hover {
+
+
+
+a:hover {
   color: #404BBF;
   cursor: pointer;
 }
