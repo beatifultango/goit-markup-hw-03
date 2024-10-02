@@ -56,6 +56,9 @@ p {
 .mail-tel {
   text-decoration: none;
 }
+.logo{
+  text-decoration: none;
+}
 
 .span1 {
   color: #4d5ae5;
@@ -63,9 +66,8 @@ p {
 .span{
   color:#2E2F42;
 }
-.spa1 {
-  color: #f4f4fd;
-}
+
+
 .navi {
   display: flex;
   align-items: center;
@@ -433,10 +435,12 @@ footer {
   font-weight: 700px;
   font-style: normal;
   padding: 50px;
+  
+  
 }
 .logo2 {
   margin-bottom: 16px;
-  text-align: left;
+  text-align: left; 
 }
 .footer .text {
   max-width: 264px;
@@ -444,9 +448,10 @@ footer {
   padding-top:16px;
   
 }
+
 .studio-footer {
   color: #f4f4fd;
 }
-.span2 {
+.span1 {
   color: #4d5ae5;
 }
