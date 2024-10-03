@@ -1,10 +1,10 @@
-*, 
+*,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} 
+}
 
 h1,
 h2,
@@ -20,12 +20,11 @@ p {
   font-weight: inherit;
 }
 .container {
-  max-width: 1158px;
+  width: 1158px;
   text-align: center;
   justify-content: center;
   padding: 0 15px;
   margin: 0 auto;
-  
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -41,12 +40,11 @@ p {
   font-style: normal;
   line-height: 1.07;
   color: #4d5ae5;
-  padding-right: 50px;
+  
 }
 
 .page-menu-list {
   display: flex;
-  
 }
 
 .contacts {
@@ -56,16 +54,14 @@ p {
 .mail-tel {
   text-decoration: none;
 }
-.logo{
+.logo {
   text-decoration: none;
-  color:#2E2F42;
+  color: #2e2f42;
 }
 
 .span1 {
   color: #4d5ae5;
 }
-
-
 
 .navi {
   display: flex;
@@ -74,7 +70,9 @@ p {
 .page-menu-list {
   gap: 40px;
   display: flex;
-  margin-right: 70px;
+  margin-left:76px;
+  
+  
 }
 .page-menu-list a {
   font-size: 16px;
@@ -85,12 +83,11 @@ p {
   height: 24px;
   color: #2e2f42;
   text-decoration: none;
+  
 }
 
-
-
 a:hover {
-  color: #404BBF;
+  color: #404bbf;
   cursor: pointer;
 }
 a:focus {
@@ -99,8 +96,10 @@ a:focus {
 .page-menu-list li {
   list-style-type: none;
   text-decoration: none;
-  text-align: center;
+  
+  
 }
+
 .contacts a {
   text-decoration: none;
   color: #434455;
@@ -138,7 +137,7 @@ body {
   background-color: #2e2f42;
 
   height: 600px;
-  padding:188px 0;
+  padding: 188px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -166,8 +165,8 @@ body {
   cursor: pointer;
   margin-top: 50px;
   border: none;
-  padding:16px,32px,16px,32px;
-  margin-left: 160px;
+  padding: 16px, 32px, 16px, 32px;
+  margin-left: 480px;
 }
 .order:hover {
   background-color: #404bbf;
@@ -179,7 +178,7 @@ body {
   padding: 120px 0;
 }
 
-.us{
+.us {
   list-style: none;
   width: calc((100% - 72px) / 4);
 }
@@ -193,13 +192,12 @@ body {
   text-align: left;
   align-items: center;
   display: flex;
-  padding-left:0;
-  
+  padding-left: 0;
 }
-.about-us-text{
-  padding-bottom:8px;
+.about-us-text {
+  padding-bottom: 8px;
 }
-.about-us p{
+.about-us p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -236,27 +234,23 @@ body {
   box-shadow: #2e2f4214;
   background-color: #ffffff;
   margin-right: 24px;
-  
 }
 .team-card {
   background-color: #ffffff;
   box-shadow: #2e2f4214;
 }
-.our-team{
-  margin-top:72px;
- 
+.our-team {
+  margin-top: 72px;
 }
 .staff {
   padding-top: 30px;
   margin-bottom: 50px;
 }
 
-
 .div-portfolio-list,
-.div-portfolio{
+.div-portfolio {
   background-color: #fff;
 }
-
 
 .portfolio .our-portfolio {
   text-align: center;
@@ -266,43 +260,29 @@ body {
   font-weight: 500px;
   text-wrap: nowrap;
   margin-bottom: 72px;
-  
-  
-  
-
 }
 .portfolio .div-portfolio-list-text {
   font-weight: 400px;
   font-size: 16px;
   line-height: 0.2;
   letter: 2%;
-  
-  
-  
 }
 
 .portfolio .images {
-  
   overflow: hidden;
-  
-  
 }
 
 .div-portfolio-list {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
-  gap:24px;
+  gap: 24px;
   row-gap: 48px;
-  padding:0px;
-  
-  
-   
-  
+  padding: 0px;
 }
 
-.div-portfolio{
-  padding-top:120px;
-  padding-bottom:120px;
+.div-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .div-portfolio-title {
   font-family: "Roboto", sans-serif;
@@ -311,7 +291,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  
+
   margin-bottom: 72px;
 }
 .div-portfolio-list-subtitle {
@@ -320,28 +300,25 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:#2E2F42;
+  color: #2e2f42;
   margin-bottom: 8px;
-  
 }
 .div-portfolio-list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
+
   font-weight: 400;
- 
 }
 .div-team-portfolio-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   text-decoration: none;
-  text-align:left;
+  text-align: left;
 }
-.div-portfolio-list-item{
+.div-portfolio-list-item {
   list-style-type: none;
- 
 }
 h2 {
   font-size: 20px;
@@ -351,10 +328,9 @@ h2 {
 .div-portfolio-list-text {
   font-size: 16px;
   font-style: unset;
-  color:#434455;
+  color: #434455;
   line-height: 1.5;
   font-weight: 400px;
-  
 }
 
 h4 {
@@ -396,7 +372,6 @@ h4 {
   color: #434455;
 }
 
-
 .button {
   background-color: #4d5ae5;
   border: none;
@@ -434,18 +409,15 @@ footer {
   font-weight: 700px;
   font-style: normal;
   padding: 50px;
-  
-  
 }
 .logo2 {
   margin-bottom: 16px;
-  text-align: left; 
+  text-align: left;
 }
 .footer .text {
   max-width: 264px;
   margin: 0;
-  padding-top:16px;
-  
+  padding-top: 16px;
 }
 
 .studio-footer {
